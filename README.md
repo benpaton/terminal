@@ -13,9 +13,9 @@ It allows you to use the command line from a web browser, well kind of. It uses 
 Installation is really simple, just copy the files onto a webserver running php and change the username and password at the top of the index.php file. Default is username 'root' and password is 'password'. You may need to enable shell exec in your php ini.
 
 ##Bugs
-*Login usually takes two attempts for some reason.
-*It's probably not the most secure application in the world as the logged in status is set in a cookie and the login and passwords are stored in the index.php file so be careful about leaving it exposed to the public as potentially it could allow people to run commands on your server if it got into mischievous hands.
-*The output when running the man command seems to have a bit of a stammer.
+* Login usually takes two attempts for some reason.
+* It's probably not the most secure application in the world as the logged in status is set in a cookie and the login and passwords are stored in the index.php file so be careful about leaving it exposed to the public as potentially it could allow people to run commands on your server if it got into mischievous hands.
+* The output when running the man command seems to have a bit of a stammer.
 
 ##Licensing
 
